@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" verbose="1">
+  <test name="Create Account Tests" thread-count="5" preserve-order="true">
+    <classes>
+      <class name="test.CreateAccountTest"/>
+  
+    </classes>
+  </test> <!-- End of Create Account Tests -->
+</suite> <!-- End of Regression Suite -->
